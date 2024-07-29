@@ -1,0 +1,12 @@
+.about {
+    background-color: #000000;
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  

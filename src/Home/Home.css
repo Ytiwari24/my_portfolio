@@ -1,0 +1,131 @@
+/* .home {
+    background-color: #000000;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.scroll-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    white-space: nowrap;
+    display: flex;
+}
+
+.scroll-content {
+    display: flex;
+    width: max-content;
+
+    height: 100%;
+}
+
+.scroll-item {
+    min-width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    transition: transform 0.3s;
+}
+
+.scroll-item.item1 {
+    background-color: #ff6347;
+
+}
+
+.scroll-item.item2 {
+    background-color: #4682b4;
+
+}
+
+.scroll-item.item3 {
+    background-color: #32cd32;
+}
+
+.scroll-item.item4 {
+    background-color: #ff1493;
+
+}
+
+.scroll-item:hover {
+    transform: scale(1.05);
+} */
+
+
+
+
+.home {
+    background-color: #000000;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+  }
+  
+  .scroll-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Hide the scrollbars */
+    white-space: nowrap;
+    display: flex;
+  }
+  
+  .scroll-content {
+    display: flex;
+    width: max-content; /* Allows the content to extend beyond the container */
+    height: 100%;
+  }
+  
+  .scroll-item {
+    min-width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    transition: transform 0.3s;
+  }
+  
+  .scroll-item.item1 {
+    background-color: #ff6347; /* Tomato */
+  }
+  
+  .scroll-item.item2 {
+    background-color: #4682b4; /* SteelBlue */
+  }
+  
+  .scroll-item.item3 {
+    background-color: #32cd32; /* LimeGreen */
+  }
+  
+  .scroll-item.item4 {
+    background-color: #ff1493; /* DeepPink */
+  }
+  
+  .scroll-item:hover {
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,77 @@
+/* .services {
+    background-color: #000000;
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li {
+    margin: 1rem 0;
+  }
+   */
+
+.services {
+    background-color: #000000;
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.service-card {
+    background-color: #1a1a1a;
+    border: 2px solid;
+    /* border-image: linear-gradient(45deg, #ff69b4, #ffb6c1) 1; */
+    /* Light gradient colors */
+    /* border-radius: 50%; */
+    padding: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Elevation effect */
+    height: 33vh;
+    /* 1/3 height */
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* Increased elevation on hover */
+}
+
+.service-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.service-card h3 {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}

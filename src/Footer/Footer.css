@@ -1,0 +1,86 @@
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 1rem;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  /* Ensure services list displays in a row */
+  .footer-column.services ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    gap: 1rem; /* Space between items */
+    padding: 0;
+    list-style: none; /* Remove default list styling */
+  }
+  
+  .footer-column.services ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #d3d3d3;
+    /* line-height: 1.5; */
+    margin-bottom: 0.5rem;
+    /* background: linear-gradient(135deg, #f3a1a1, #f3c1a1); */
+    /* padding: 1rem; */
+    /* border-radius: 10px; */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .footer-column.services ul li:hover {
+    transform: translateY(-5px); /* Elevation effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for elevation effect */
+  }
+  
+  /* Dot styling */
+  .dot {
+    display: inline-block;
+    width: 10px; /* Size of the dot */
+    height: 10px; /* Size of the dot */
+    background-color: #d3d3d3; /* Color of the dot */
+    border-radius: 50%; /* Make the dot circular */
+    margin-right: 8px; /* Space between dot and text */
+    vertical-align: middle; /* Align dot with text */
+  }
+  
+  /* Footer bottom */
+  .footer-bottom {
+    text-align: center; /* Center the copyright text */
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: #d3d3d3;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-column.services ul {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+  }
+  

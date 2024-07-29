@@ -1,0 +1,133 @@
+/* 
+   .testimonials {
+    background-color: #f8f9fa;
+    color: #000000;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .workflow-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .workflow-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: calc(33.333% - 1rem); 
+    box-sizing: border-box;
+    transition: transform 0.3s;
+  }
+  
+  .workflow-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .workflow-card p {
+    font-size: 1rem;
+    color: #555555;
+  }
+  
+  .workflow-card:hover {
+    transform: translateY(-10px);
+  }
+ 
+  @media (max-width: 768px) {
+    .workflow-card {
+      width: calc(50% - 1rem);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .workflow-card {
+      width: 100%; 
+    }
+  }
+   */
+
+
+
+   .testimonials {
+    background-color: #f8f9fa;
+    color: #000000;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .workflow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .workflow-step {
+    display: flex;
+    align-items: center;
+  }
+  
+  .workflow-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 250px;
+    margin: 1rem;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+  }
+  
+  .workflow-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .workflow-card p {
+    font-size: 1rem;
+    color: #555555;
+  }
+  
+  .workflow-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+  
+  .arrow span {
+    color: #000000;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .workflow-card {
+      width: calc(50% - 1rem); /* Two cards per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .workflow-card {
+      width: 100%; /* One card per row on small screens */
+    }
+  }
+  

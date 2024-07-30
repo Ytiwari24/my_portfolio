@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-logo">MySoftwareCo</div>
+        <div className="navbar-logo">Future X </div>
         <ul className="navbar-menu">
           <li className="navbar-item"><a href="#home">Home</a></li>
           <li className="navbar-item"><a href="#services">Services</a></li>
